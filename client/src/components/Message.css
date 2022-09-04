@@ -1,0 +1,80 @@
+.message{
+    /* height: fit-content; */
+    margin: 0;
+    padding: 0;
+    max-width: 70%;
+    padding: 10px;
+    /* border-radius: 10px; */
+    color: white;
+    box-shadow: 1px 8px 10px black;
+}
+
+.out{
+    clear: right;
+    /* border: 1px dashed orange; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background: white;
+    color: #7C8087;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: left;
+}
+
+.in{
+    /* border: 1px dashed green; */
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: #443FB9;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.system{
+    clear: both;
+    background: #57AC90C8;
+    color: white;
+    width: 100%;
+    align: center;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sysid {
+    font-weight: bold;
+    color: red;
+}
+
+.message-sender-id{
+
+}
+
+.message-content{
+    margin: 0;
+    padding: 20px;
+}
+
+.message-timestamp{
+    padding: 10px;
+}
+
+.message-content-container{
+    padding: 20px;
+    /* background: lightblue; */
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.message-timestamp-container{
+    /* padding: 10px; */
+    color: inherit;
+    font-size: xx-small;
+}

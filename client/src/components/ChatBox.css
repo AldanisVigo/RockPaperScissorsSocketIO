@@ -1,0 +1,40 @@
+.chatbox{
+    width: 80%;
+    height: 400px;
+    /* background: orange; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    padding: 0;
+    margin: 20px;
+    /* overflow: scroll; */
+    /* border-radius: 40px; */
+}
+
+.incoming{
+    background: #F1F2F4;
+    padding: 0;
+    margin: 0;
+    /* max-height: 300px; */
+    overflow: scroll;
+    /* border-top-righ-radius: 20px; */
+    padding: 30px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: -0px 0px 10px black;
+    text-align: center;
+}
+
+.outgoing{
+    background: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    padding-right: 20px;
+    background: lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -0px 0px 10px black;
+    text-align: left;
+}

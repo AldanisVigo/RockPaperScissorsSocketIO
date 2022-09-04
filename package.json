@@ -1,0 +1,28 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "Socket.IO Powered Rock Paper Scissors",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node server.js\" \"cd client && npm start\" --ignore client"
+  },
+  "keywords": [
+    "RPS",
+    "Mern",
+    "Socket.IO"
+  ],
+  "author": "Aldanis Vigo (aldanisvigo@gmail.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.2"
+  }
+}
